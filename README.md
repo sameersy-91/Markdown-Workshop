@@ -1,7 +1,13 @@
-# Markdown-Workshop
-## Chapter 2 
+- [1. Markdown-Workshop](#1-markdown-workshop)
+  - [1.1. Chapter 2](#11-chapter-2)
+    - [1.1.1. Dataflix (Oracle)](#111-dataflix-oracle)
+  - [1.2. Prerequisites](#12-prerequisites)
+    - [1.2.1. Components](#121-components)
 
-### Dataflix (Oracle)
+# 1. Markdown-Workshop
+## 1.1. Chapter 2 
+
+### 1.1.1. Dataflix (Oracle)
 _Last updated: 26 Sep, 2025 by Syed Sameer_
 
 
@@ -57,7 +63,7 @@ Sameer | Bangalore | STW
 </table>
 
 
-## Prerequisites
+## 1.2. Prerequisites
 - Ensure that you have created your database service in the Provisioning application
 under the DB Services app family.
 For more information on provisioning, see [Provisioning an Oracle DB Service](https://docs.tessell.com/tessell/tessell-for-oracle/db-services/provisioning-an-oracle-db-service).
@@ -85,7 +91,7 @@ Granted Role: `DBA`, `RESOURCE`, `CONNECT`, `SELECT_CATALOG_ROLE`, `EXECUTE_CATA
 <details>
   <summary><strong>Project Architecture</strong></summary>
 
-  ### Components
+  ### 1.2.1. Components
   - Frontend
   - Backend
   - Database
