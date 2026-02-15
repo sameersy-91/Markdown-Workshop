@@ -1,19 +1,38 @@
 # Markdown-Workshop
 ## Chapter 2 
 
-# Dataflix (Oracle)
+### Dataflix (Oracle)
 _Last updated: 26 Sep, 2025 by Syed Sameer_
 
-```
+
 The Dataflix application is a specialized data management app that allows you to browse
 available database services and create clones from your point-in-time recovery (PITR) regions,
 snapshots, or sanitized snapshots. It also lets you download your database backups.
-```
+
 ---
+Table
+Name | City | Profession
+---: | :--- | :---:
+Sameer | Bangalore | STW
+Sameer | Bangalore | STW
+Sameer | Bangalore | STW
+Sameer | Bangalore | STW
+
+```
+{
+    "status":"OK",
+    "data":
+        {
+            "message": "Welcome, world!"
+        }
+}
+```
+[Stripe content](/Mardownfile.md)
+
 ![Image](/img/Screenshot.png)
 
 <table class="table table-striped">
-<caption>Caption for this Table</caption>
+<caption>HTML Table</caption>
 <thead class="thead-dark">
 <tr>
     <th width="30%">Property</th>
@@ -42,6 +61,9 @@ snapshots, or sanitized snapshots. It also lets you download your database backu
 - Ensure that you have created your database service in the Provisioning application
 under the DB Services app family.
 For more information on provisioning, see [Provisioning an Oracle DB Service](https://docs.tessell.com/tessell/tessell-for-oracle/db-services/provisioning-an-oracle-db-service).
+- Ensure that you have scheduled snapshots in the Availability Machines application under
+the DB Service app family.   
+For more information on Availability Machines, see Availability Machines app.
 
 1. From the Tessell home page, select the **Provisioning** application under the DB Services application family in the left-hand menu.
 <br>Available database engines are displayed and categorized into relational databases, vector databases, and NoSQL databases.</br>
@@ -59,6 +81,7 @@ Granted Role: `DBA`, `RESOURCE`, `CONNECT`, `SELECT_CATALOG_ROLE`, `EXECUTE_CATA
   You can include text, lists, code, or even images here.
 
 </details>
+
 <details>
   <summary><strong>Project Architecture</strong></summary>
 
@@ -70,7 +93,8 @@ Granted Role: `DBA`, `RESOURCE`, `CONNECT`, `SELECT_CATALOG_ROLE`, `EXECUTE_CATA
   ```bash
   npm install
   ```
-
+</details>
+<br>
 <ul>
   <li>
     <details>
@@ -103,5 +127,13 @@ Granted Role: `DBA`, `RESOURCE`, `CONNECT`, `SELECT_CATALOG_ROLE`, `EXECUTE_CATA
     </details>
   </li>
 </ul>
+</br>
 
+Task lists
+GitHub Flavored Markdown (GFM) supports it.
+Useful for Project list, roadmap, or task reviews.
+- [x] Setup repository
+- [x] Write README
+- [ ] Add documentation
+- [ ] Review pull requests
 
