@@ -4,7 +4,7 @@ name: Documentation Style Check
 on:
   pull_request:
     paths:
-      - "docs/**/*.md"
+      - "*.md"
       - "*.md"
       - ".vale.ini"
       - "styles/**"
