@@ -1,0 +1,27 @@
+
+name: Documentation Style Check
+
+on:
+  pull_request:
+    paths:
+      - "docs/**/*.md"
+      - "*.md"
+      - ".vale.ini"
+      - "styles/**"
+      - ".github/workflows/vale.yml"
+
+  push:
+    branches:
+      - main
+
+jobs:
+  vale:
+    name: Check documentation style
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run Vale
+        uses: vale-cli/vale-action@v3
